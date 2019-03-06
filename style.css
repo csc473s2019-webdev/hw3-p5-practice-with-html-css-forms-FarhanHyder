@@ -13,6 +13,8 @@ body
 .form-outer{
     width: 70%;
     margin: auto;
+    background-color: gainsboro;
+    border-radius: 3px;
 }
 
 
@@ -31,11 +33,17 @@ body
 }
 
 #submit{
-    margin-top: 10%;
+    margin-top: 8%;
+    margin-bottom: 2%;
     margin-left: 45%;
 }
 
 #comments{
     width: 200px;
     height: 70px;
+}
+
+/* used to hide texts  */
+.blanks{
+    color: olivedrab;
 }
