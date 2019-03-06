@@ -29,3 +29,7 @@ body
 .user-input{
     width: 60%;
 }
+
+#submit{
+    margin-top: 10%;
+}
