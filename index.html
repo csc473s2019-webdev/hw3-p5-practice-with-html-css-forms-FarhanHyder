@@ -21,7 +21,7 @@
 
         <form action="" id="survey-form">
 
-            <div class="row">   <!--start name-->
+            <div class="row" id="name-div">   <!--start name-->
                 <div class="labels">
                     <label for="name" id="name-label">Name </label>
                 </div>
@@ -31,7 +31,7 @@
                 </div>
             </div>    <!--end name-->
 
-            <div class="row">   <!--start email-->
+            <div class="row" id="email-div">   <!--start email-->
                 <div class="labels">
                     <label for="email" id="email-label">Email </label>
                 </div>
@@ -41,7 +41,7 @@
                 </div>
             </div>    <!--end email-->
 
-            <div class="row">   <!--start age-->
+            <div class="row" id="number-div">   <!--start age-->
                 <div class="labels">
                     <label for="number" id="number-label">Age </label>
                 </div>
@@ -51,41 +51,67 @@
                 </div>
             </div>    <!--end age-->
 
-            <div class="row">   <!--start fav-anime-->
+            <div class="row" id="dropdown-div">   <!--start dropdown-->
                 <div class="labels">
                     <label for="dropdown" id="dropdown-label">Which one is your favorite anime character?</label>
                 </div>
                 
                 <div class="user-input">
                     <select id="dropdown">
-                        <option value="volvo">Saitama</option>
-                        <option value="saab">Goku</option>
-                        <option value="mercedes">Vegeta</option>
-                        <option value="mercedes">Vegeta</option>
-                        <option value="mercedes">Monkey D. Luffy </option>
-                        <option value="mercedes">Naruto</option>
-                        <option value="mercedes">Broly </option>
-                        <option value="mercedes">Edward Elric </option>
-                        <option value="mercedes">None of the above</option>
+                        <option value="saitama">Saitama</option>
+                        <option value="goku">Goku</option>
+                        <option value="vegeta">Vegeta</option>
+                        <option value="luffy">Monkey D. Luffy </option>
+                        <option value="naruto">Naruto</option>
+                        <option value="broly">Broly </option>
+                        <option value="elric">Edward Elric </option>
+                        <option value="none">None of the above</option>
                     </select>
                 </div>
-            </div>    <!--end fav-anime-->
+            </div>    <!--end dropdown-->
 
             <p>..</p>
 
-            <div class="row">   <!--start howOften-->
+            <div class="row"  id="radio-div">   <!--start radio-->
                 <div class="labels">
                     <label for="radio" id="radio-label">How often do you watch animes?</label>
                 </div>
                 
-                <div class="user-input" id="radio">
-                    <form >
+                <div class="user-input">
+                    <form id="radio">
                         <input type="radio" name="howOften" value="daily`" checked> Daily <br>
                         <input type="radio" name="howOften" value="Weekly"> Weekly <br>
                         <input type="radio" name="howOften" value="irregular"> Not So Regular
                     </form>
                 </div>
-            </div>    <!--end howOften-->
+            </div>    <!--end radio-->
+
+            <div class="row" id="checkbox-div">   <!--start checkbox-->
+                <div class="labels">
+                    <label for="checkbox" id="checkbox-label">Select the crossovers that you would like to see in the future!</label>
+                </div>
+                
+                <div class="user-input">
+                    <form id="checkbox">
+                        <input type="checkbox" name="show1" value="batiron"> Batman vs Iron Man<br>
+                        <input type="checkbox" name="show1" value="gokuSaitama"> Goku vs Saitama<br>
+                        <input type="checkbox" name="show1" value="gokuVegeSaitama" checked> Saitama vs Goku & Vegeta<br><br>
+                    </form>
+                </div>
+            </div>    <!--end checkbox-->
+
+            <div class="row">   <!--start comments-->
+                <div class="labels">
+                    <label for="comments" id="comments-label"> Any other crossovers that you can think of? Let us know! </label>
+                </div>
+                
+                <div class="user-input" id="comments-div">
+                    <textarea id="comments" placeholder="Enter your comments here"> 
+
+                    </textarea>
+                </div>
+            </div>    <!--end comments-->
+
 
 
 
