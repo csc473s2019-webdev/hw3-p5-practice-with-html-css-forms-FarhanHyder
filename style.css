@@ -10,6 +10,11 @@ body
     text-align: center;
 }
 
+#description{
+    background-color: #ff0000;
+    color: azure;
+}
+
 .form-outer{
     width: 70%;
     margin: auto;
@@ -45,5 +50,5 @@ body
 
 /* used to hide texts  */
 .blanks{
-    color: olivedrab;
+    color: gainsboro;
 }
