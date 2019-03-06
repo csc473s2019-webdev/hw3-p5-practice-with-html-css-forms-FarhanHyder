@@ -32,4 +32,10 @@ body
 
 #submit{
     margin-top: 10%;
+    margin-left: 45%;
+}
+
+#comments{
+    width: 200px;
+    height: 70px;
 }
